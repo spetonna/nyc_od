@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+
+/* Add hover effect */
+.large-button button:hover {
+    background-color: lightblue; /* Change color on hover */
+    border-color: blue; /* Change border color */
+}
+
+.header_logo{
+    display: flex;
+    justify-content: space-between;
+    background-color:antiquewhite;
+    padding: 10px 20px;
+    align-items: center;
+    height: auto;
+    min-height: 50px;
+}
+.header_logo img{
+    height: 80px;
+    width: auto;
+}
+.links a{
+    font: 14px;
+    margin: 0 10px;
+
+}
+
+.nyc_heading{
+    display: flex;
+    flex-direction: row;
+    /* width: 60%;
+    gap: 50px; */
+    margin-bottom: 50px;
+    background-color: antiquewhite;
+    align-items: flex-start;
+    margin-bottom: 50px
+    ;
+    
+}
+
+
+.characters {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.character img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    border-style:solid;
+    border-color: slateblue;
+}
+
+.character p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.quote {
+    background-color: beige;
+    font-size:larger;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.sign-up{
+    font-size: 20px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: 3px;
+
+}
